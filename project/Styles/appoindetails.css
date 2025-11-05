@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", serif;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+.appointment-container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: left;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.appointment-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.doctor-info {
+    display: flex;
+    gap: 2rem;
+}
+
+
+
+.doctor-image {
+    width: 12rem;
+    height: auto;
+    border-radius: 0.5rem;
+    object-fit: cover;
+    border: 1px solid #c9d8ff;
+    background-color: #c9d8ff;
+    transition: 0.2s;
+}
+
+.doctor-image:hover {
+    background-color: #5f6fff;
+}
+
+.doc-name {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.address,
+.date-time,
+.a-fee {
+    font-weight: 500;
+    margin: 1.2rem 0;
+    color: #555;
+}
+
+.specialization {
+    font-size: 1.1rem;
+    margin-top: 0.4rem;
+    color: #555;
+}
+
+.appointment-actions {
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.btn {
+    height: 3rem;
+    width: 12rem;
+    font-weight: 600;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.2s;
+}
+
+.pay-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.pay-btn:hover {
+    background-color: #3f9043;
+}
+
+.cancel-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+.cancel-btn:hover {
+    background-color: #cd3330;
+}

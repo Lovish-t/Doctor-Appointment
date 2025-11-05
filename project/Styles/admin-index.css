@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", serif;
+}
+
+#admin-panel {
+    width: 8rem;
+    margin-left: 3rem;
+    font-weight: 600;
+    color:rgba(21, 20, 20, 0.454);
+}
+
+.content{
+    background-color: #fff;
+}
+
+.content .heading {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-left: 3rem;
+}
+.content .top-section{
+    float: right;
+    height: 3rem;
+    line-height: 3rem;
+    margin-right: 1rem;
+}
+
+.content .top-section button{
+    width: 8rem;
+    height: 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #5f6fff;
+    cursor: pointer;
+    transition: 0.2s;
+    margin: 0.6rem;
+}
+
+.content .top-section button a{
+text-decoration: none;
+color: #fff;
+}
+
+.content .top-section button:hover {
+transform: scale(1.05);
+}
