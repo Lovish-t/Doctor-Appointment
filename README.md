@@ -17,7 +17,7 @@ This is a simple website where users can book appointments with doctors. It is m
 
 1. First, clone the project
 ```
-git clone https://github.com/MohamedBoukthir/Doctor-Appointment-Booking-MERN-Stack.git
+git clone https://github.com/Doctor-Appointment-Booking-MERN-Stack.git
 cd Doctor-Appointment-Booking-MERN-Stack
 ```
 
